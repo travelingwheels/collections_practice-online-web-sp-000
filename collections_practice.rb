@@ -34,3 +34,7 @@ end
 def sum_array(arr_int)
   arr_int.inject(0) {|sum,i| sum + i }
 end
+
+def add_s(things)
+  
+end
