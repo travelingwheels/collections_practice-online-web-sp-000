@@ -32,5 +32,5 @@ def find_a(arr)
 end
 
 def sum_array(arr_int)
-  
+  arr_int.inject
 end
