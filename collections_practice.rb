@@ -37,5 +37,7 @@ end
 
 def add_s(things)
   things.collect.with_index {|element, index|}
-    if 
+    if index == 1 
+      word 
+    else index
 end
