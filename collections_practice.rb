@@ -27,9 +27,6 @@ new_arr
 end 
 
 def find_a(arr)
-  nu_a = []
   arr.select do |x| x.chr == "a"
-  nu_a << x 
-end
-nu_a
+  end
 end
