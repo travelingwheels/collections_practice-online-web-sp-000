@@ -30,3 +30,7 @@ def find_a(arr)
   arr.select do |x| x.chr == "a"
   end
 end
+
+def sum_array(arr_int)
+  
+end
