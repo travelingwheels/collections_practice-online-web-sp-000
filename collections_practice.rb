@@ -20,12 +20,8 @@ end
 
 def kesha_maker(strings)
   new_arr = []
-  strings.each do |n| n
-   i = 0 
-  while i < strings.length
-  block_given?
-  yield (strings[i])
-  i += 1 
-  end
-  array
+  strings.each do |n| n[3]= "$" puts n
+  new_arr << n 
 end
+new_arr
+end 
