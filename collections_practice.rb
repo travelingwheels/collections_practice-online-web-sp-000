@@ -27,5 +27,5 @@ new_arr
 end 
 
 def find_a(arr)
-  
+  arr.find {|x| x == a}
 end
