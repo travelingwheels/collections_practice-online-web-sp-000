@@ -27,5 +27,9 @@ new_arr
 end 
 
 def find_a(arr)
-  arr.find {|x| x == "a"}
+  nu_a = []
+  arr.find do |x| x == "a"
+  nu_a << x 
+end
+nu_a
 end
