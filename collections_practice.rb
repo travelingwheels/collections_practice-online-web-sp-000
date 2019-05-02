@@ -36,5 +36,5 @@ def sum_array(arr_int)
 end
 
 def add_s(things)
-  
+  things,collect
 end
