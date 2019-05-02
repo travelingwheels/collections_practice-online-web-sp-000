@@ -42,4 +42,5 @@ def add_s(things)
     else 
       element + "s"
     end
+  end
 end
