@@ -36,7 +36,7 @@ def sum_array(arr_int)
 end
 
 def add_s(things)
-  things.collect.with_index do|element, index|}
+  things.collect.with_index do|element, index|
     if index == 1 
       element 
     else 
