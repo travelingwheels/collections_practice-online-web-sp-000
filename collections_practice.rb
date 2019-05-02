@@ -28,7 +28,7 @@ end
 
 def find_a(arr)
   nu_a = []
-  arr.find_all do |x| x.start_with?("a") puts x
+  arr.find_all do |x| x.start_with?("a")
   nu_a << x 
 end
 nu_a
